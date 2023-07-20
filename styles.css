@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #275085;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    animation: animação 1s forwards;
+    font-size: 5em;
+}
+.caroussel {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .carousel-inner {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .carousel-item img{
+    height: auto;
+  }
+  .banner_rolate {
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+    box-shadow: 4px 3px 8px #333;
+    flex: 0 0 100%;
+  }
+  
+  .banner_rolate img {
+    width: 200px;
+    height: 150px;
+  }
+  
+  @keyframes scrollCarrossel {
+    0% {
+      transform: translateX(0); /* Inicia a partir da posição inicial */
+    }
+    100% {
+      transform: translateX(-100%); /* Move para a esquerda */
+    }
+  }
+
+main {
+    width: 60%;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+.sct1{
+    margin-top: 40px;
+}
+#titulotop{
+    margin-bottom: -5px;
+}
+
+h2 {
+    color: #333;
+    padding-bottom: 0.5rem;
+}
+.social-media-bar {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .social-media-bar a {
+    margin: 0 10px;
+  }
+  
+  .social-media-bar img {
+    width: 30px;
+    height: 30px;
+  }
+  #imgtamanho{
+    width: 25px;
+    height: 25px;
+  }
+  .social-media-bar a:hover img {
+    opacity: 0.7;
+  }
+  .social-media-bar{
+    animation: animação 5s forwards;
+  }
+
+footer {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    text-align: center;
+}
+footer  strong{
+    font-size: 13px;
+}
+
+@keyframes animação {
+    0%{
+        margin-left: -500pc;
+    }
+    50%{
+
+    }
+    100%{
+
+    }
+}
+@media (max-width: 467px){
+    main {
+        width: 90%;
+        padding: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
