@@ -65,7 +65,13 @@ section {
 #titulotop{
     margin-bottom: -5px;
 }
-
+#backOrcamento{
+    width: 100;
+    margin: 0 -50px 0 -50px;
+    padding: 40px 50px 0 50px;
+    color: #fff;
+    background-color: #888888;
+}
 h2 {
     color: #333;
     padding-bottom: 0.5rem;
