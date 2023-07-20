@@ -70,6 +70,38 @@ h2 {
     color: #333;
     padding-bottom: 0.5rem;
 }
+
+/*buttom site*/
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn-portfolio {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-portfolio:hover {
+    background-color: #0056b3;
+  }
 .social-media-bar {
     background-color: #f2f2f2;
     display: flex;
