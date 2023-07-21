@@ -66,16 +66,40 @@ section {
 #titulotop{
     margin-bottom: -5px;
 }
-#backOrcamento{
-    width: 100;
-    margin: auto;
-    padding: 40px 50px 0 40px;
-    color: #fff;
-    background-color: #ecececc2;
-    border-radius: 20px;
-    text-shadow: 1px 1px 5px rgb(138, 138, 138);
-    box-shadow: 4px 4px 4px rgb(150, 150, 150);
+#backOrcamento {
+  width: 100px; /* Adicionei um valor para a largura (você pode ajustar conforme necessário) */
+  margin: auto;
+  padding: 40px 50px 0 40px;
+  color: #fff;
+  background-color: #ecececc2;
+  border-radius: 20px;
+  text-shadow: 1px 1px 5px rgb(175, 175, 175);
+  box-shadow: 4px 4px 4px rgb(150, 150, 150);
+
+  /* Adicionando a animação 3D */
+  animation: rotateAnimation 6s linear infinite alternate-reverse; /* Ajuste o tempo e o tipo de animação conforme desejado */
 }
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  50%{
+    transform: rotateX(5deg) rotateY(5deg);
+  }
+  100% {
+    transform: rotateX(10deg) rotateY(10deg);
+  }
+}
+
+#backOrcamento h2 {
+  color: #1c566d;
+}
+
+#backOrcamento p {
+  color: #333;
+}
+
 h2 {
     color: #333;
     padding-bottom: 0.5rem;
