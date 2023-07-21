@@ -12,8 +12,27 @@ header {
     padding: 1rem;
     text-align: center;
     animation: animação 1s forwards;
-    font-size: 5em;
     box-shadow: 4px 4px 4px rgb(105, 105, 105);
+}
+nav ul{
+  margin-top: 17px;
+  margin-left: -40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul li{
+  display: flex;
+}
+ul li{
+  display: flex;
+}
+li a{
+  text-decoration: none;
+  color: #fff;
+}
+li a:hover{
+  text-decoration: none;
+  color: #7e7e7e;
 }
 .caroussel {
     width: 100%;
@@ -73,23 +92,7 @@ section {
   color: #fff;
   background-color: #ecececc2;
   border-radius: 20px;
-  text-shadow: 1px 1px 5px rgb(175, 175, 175);
   box-shadow: 4px 4px 4px rgb(150, 150, 150);
-
-  /* Adicionando a animação 3D */
-  animation: rotateAnimation 6s linear infinite alternate-reverse; /* Ajuste o tempo e o tipo de animação conforme desejado */
-}
-
-@keyframes rotateAnimation {
-  0% {
-    transform: rotateX(0deg) rotateY(0deg);
-  }
-  50%{
-    transform: rotateX(5deg) rotateY(5deg);
-  }
-  100% {
-    transform: rotateX(10deg) rotateY(10deg);
-  }
 }
 
 #backOrcamento h2 {
@@ -135,14 +138,24 @@ h2 {
   }
   
   .btn-portfolio:hover {
-    background-color: #0056b3;
+    background-color: #d3d3d3;
   }
+
+.containerBox{
+  padding: 20px;
+  background-color:#f2f2f2;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px #33333367;
+}
 .social-media-bar {
-    background-color: #f2f2f2;
+    background-color:#f2f2f2;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
+    box-shadow: inset 4px 4px 4px #333;
+    border-radius: 20px;
+    margin-bottom: 20px;
   }
   
   .social-media-bar a {
