@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background-color:#1c566d;
-    color: #fff;
+    background-color: #333;
+    color: #fdfdfd;
     padding: 1rem;
     text-align: center;
     animation: animação 1s forwards;
@@ -17,41 +17,45 @@ header {
 header h5{
   margin-top: 10px;
 }
+#linhaTop{
+  border: 2px solid #0f83ffc0;
+  margin: -1px 0;
+}
 
 .caroussel {
     width: 100%;
     height: auto;
     overflow: hidden;
+}
+.carousel-inner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-item img{
+  height: auto;
+}
+.banner_rolate {
+  width: 100%;
+  height: 200px;
+  margin: 10px;
+  box-shadow: 4px 3px 8px #333;
+  flex: 0 0 100%;
+}
+
+.banner_rolate img {
+  width: 200px;
+  height: 150px;
+}
+
+@keyframes scrollCarrossel {
+  0% {
+    transform: translateX(0); /* Inicia a partir da posição inicial */
   }
-  .carousel-inner {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+  100% {
+    transform: translateX(-500%); /* Move para a esquerda */
   }
-  .carousel-item img{
-    height: auto;
-  }
-  .banner_rolate {
-    width: 100%;
-    height: 200px;
-    margin: 10px;
-    box-shadow: 4px 3px 8px #333;
-    flex: 0 0 100%;
-  }
-  
-  .banner_rolate img {
-    width: 200px;
-    height: 150px;
-  }
-  
-  @keyframes scrollCarrossel {
-    0% {
-      transform: translateX(0); /* Inicia a partir da posição inicial */
-    }
-    100% {
-      transform: translateX(-500%); /* Move para a esquerda */
-    }
-  }
+}
 
 main {
     width: 60%;
@@ -162,10 +166,10 @@ h2 {
   }
 
 footer {
-    background-color: #1c566d;
+  background-color: #333;
+  color: #fdfdfd;
     padding: 1rem;
     text-align: center;
-    color: #fff;
 }
 footer  strong{
     font-size: 13px;
