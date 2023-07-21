@@ -13,6 +13,7 @@ header {
     text-align: center;
     animation: animação 1s forwards;
     font-size: 5em;
+    box-shadow: 4px 4px 4px rgb(105, 105, 105);
 }
 .caroussel {
     width: 100%;
@@ -104,6 +105,7 @@ h2 {
     border-radius: 5px;
     font-size: 20px;
     transition: background-color 0.3s;
+    box-shadow: 4px 4px 4px rgb(105, 105, 105);
   }
   
   .btn-portfolio:hover {
