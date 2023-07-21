@@ -71,8 +71,10 @@ section {
     margin: auto;
     padding: 40px 50px 0 40px;
     color: #fff;
-    background-color: #1c566d;
-    box-shadow: 4px 4px 4px rgb(105, 105, 105);
+    background-color: #a0a0a0c2;
+    border-radius: 20px;
+    text-shadow: 1px 1px 5px rgb(138, 138, 138);
+    box-shadow: 4px 4px 4px rgb(150, 150, 150);
 }
 h2 {
     color: #333;
@@ -142,9 +144,10 @@ h2 {
   }
 
 footer {
-    background-color: #f2f2f2;
+    background-color: #1c566d;
     padding: 1rem;
     text-align: center;
+    color: #fff;
 }
 footer  strong{
     font-size: 13px;
