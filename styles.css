@@ -71,7 +71,7 @@ section {
     margin: auto;
     padding: 40px 50px 0 40px;
     color: #fff;
-    background-color: #a0a0a0c2;
+    background-color: #ecececc2;
     border-radius: 20px;
     text-shadow: 1px 1px 5px rgb(138, 138, 138);
     box-shadow: 4px 4px 4px rgb(150, 150, 150);
@@ -176,4 +176,13 @@ footer  strong{
     .carousel-item img{
         height: 200px;
       }
+      #backOrcamento{
+        width: 360px;
+    }
+    #backOrcamento h2{
+      color: #1c566d;
+  }
+  #backOrcamento p{
+    color: #333;
+}
 }
